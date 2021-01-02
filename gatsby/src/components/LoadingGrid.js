@@ -6,7 +6,7 @@ function LoadingGrid({ count }) {
     <ItemsGrid>
       {/* Create an array the size of the number of count */}
       {Array.from({ length: count }, (_, i) => (
-        <ItemStyles key={i}>
+        <ItemStyles key={`Loader-${i}`}>
           <p>
             <span className="mark"> Loading...</span>
           </p>
