@@ -39,7 +39,7 @@ const SlicemasterStyles = styled.div`
 `;
 function SlicemastersPage({ data, pageContext }) {
   const slicemasters = data.slicemasters.nodes;
-  console.log(slicemasters);
+  // console.log(slicemasters);
   return (
     <>
       <SEO title={`Slicemaster - Page ${pageContext.currentPage || 1} `} />

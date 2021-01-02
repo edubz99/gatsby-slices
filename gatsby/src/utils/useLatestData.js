@@ -53,7 +53,7 @@ function useLatestData() {
         // Set the data to state
         setHotSlices(response.data.StoreSettings.hotSlices);
         setSlicemasters(response.data.StoreSettings.slicemaster);
-        console.log(response.data.StoreSettings);
+        // console.log(response.data.StoreSettings);
       })
       .catch((err) => {
         console.log(err);
